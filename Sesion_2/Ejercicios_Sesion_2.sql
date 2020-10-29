@@ -101,9 +101,8 @@ SELECT orderNumber, max(quantityOrdered) AS max_prod_orden,
 
 # 14. Dentro de la tabla orders, obten el número de órdenes que hay por cada estado.
 DESCRIBE orders;
-SELECT count(*)
-	FROM orders 
-	GROUP BY YEAR(orderDate);
-SELECT * FROM orders LIMIT 10;
+SELECT status, count(*) AS numero_ordenes
+	FROM orders
+	GROUP BY status;
 
 
