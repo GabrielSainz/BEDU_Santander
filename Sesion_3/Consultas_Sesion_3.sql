@@ -1,3 +1,6 @@
+# created by: Gabriel Sainz Vázquez
+# e-mail: gabriel.sainzva@anahuac.mx
+
 USE tienda;
 
 # Subconsultas ------------------------------
